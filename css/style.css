@@ -1,0 +1,29 @@
+body {
+
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#outter {
+
+    border: 1px solid #ccc;
+    display: flex;
+    height: 150px;
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.item {
+
+    background: #ffffff;
+    padding: 20px;
+    margin: 5px;
+    width: 10%;
+    color: #00cccc;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #00cccc;
+}
